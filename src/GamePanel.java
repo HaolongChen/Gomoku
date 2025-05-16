@@ -14,7 +14,7 @@ public class GamePanel extends JPanel {
     // Colors
     private final Color BACKGROUND_COLOR = new Color(240, 217, 181); // Wooden board color
     private final Color LINE_COLOR = new Color(90, 60, 40);  // Dark brown lines
-    private final Color HOVER_COLOR = new Color(255, 224, 179, 150);  // Translucent hover highlight
+    private final Color HOVER_COLOR = new Color(45, 45, 45, 150);  // Translucent hover highlight
     private final Color BLACK_STONE = new Color(45, 45, 45);  // Almost black
     private final Color WHITE_STONE = new Color(240, 240, 240);  // Almost white
     private final Color LAST_MOVE_INDICATOR = new Color(255, 80, 80, 180);  // Translucent red

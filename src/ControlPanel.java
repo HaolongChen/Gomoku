@@ -36,7 +36,7 @@ public class ControlPanel extends JPanel {
         titleLabel.setForeground(new Color(50, 50, 50));
         titleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
         
-        JLabel subtitleLabel = new JLabel("Modern Edition");
+        JLabel subtitleLabel = new JLabel("By Haolong");
         subtitleLabel.setFont(new Font("Arial", Font.ITALIC, 14));
         subtitleLabel.setForeground(new Color(100, 100, 100));
         subtitleLabel.setAlignmentX(Component.CENTER_ALIGNMENT);
@@ -57,13 +57,13 @@ public class ControlPanel extends JPanel {
         rulesTitle.setFont(new Font("Arial", Font.BOLD, 16));
         rulesTitle.setAlignmentX(Component.LEFT_ALIGNMENT);
         
-        JTextArea rulesText = new JTextArea(
-            "• Place stones on intersections\n" +
-            "• Black goes first (you)\n" +
-            "• Connect 5 stones in a row\n" +
-            "  (horizontally, vertically, or diagonally)\n" +
-            "• First to connect 5 wins!"
-        );
+        JTextArea rulesText = new JTextArea("""
+            • Place stones on intersections
+            • Black goes first (you)
+            • Connect 5 stones in a row
+              (horizontally, vertically, or diagonally)
+            • First to connect 5 wins!
+            """);
         rulesText.setEditable(false);
         rulesText.setLineWrap(true);
         rulesText.setWrapStyleWord(true);
