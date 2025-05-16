@@ -56,7 +56,6 @@ public class ControlPanel extends JPanel {
         JLabel rulesTitle = new JLabel("Game Rules:");
         rulesTitle.setFont(new Font("Arial", Font.BOLD, 16));
         rulesTitle.setAlignmentX(Component.LEFT_ALIGNMENT);
-        
         JTextArea rulesText = new JTextArea("""
             • Place stones on intersections
             • Black goes first (you)
@@ -71,6 +70,7 @@ public class ControlPanel extends JPanel {
         rulesText.setOpaque(false);
         rulesText.setBorder(BorderFactory.createEmptyBorder(5, 0, 15, 0));
         rulesText.setAlignmentX(Component.LEFT_ALIGNMENT);
+        rulesText.setFocusable(false); // Disable focus
         
         // Info label for game status
         infoLabel = new JLabel("You play as Black");
